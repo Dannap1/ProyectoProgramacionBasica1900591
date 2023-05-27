@@ -97,31 +97,6 @@ void Alta()
     }
 }
 
-//void lista()
-//{
-//    for (int i = 0; i < alta; i++)
-//    {
-//        if (videojuegos[i].status == "ELIMINADO")
-//        {
-//            printf("ARTICULO ELIMINADO");
-//            i + 1;
-//        }
-//        else
-//        {
-//            printf("\nArticulo %d", i + 1);
-//            printf("\nNombre del articulo: %s", videojuegos[i].nombre.c_str());
-//            printf("\nFecha de lanzamiento: %d", videojuegos[i].lanzamiento);
-//            printf("\nDescripcion del articulo: %s", videojuegos[i].descripcion.c_str());
-//            printf("\nGenero del articulo: %s", videojuegos[i].genero.c_str());
-//            printf("\nClasificacion del articulo: %s", videojuegos[i].clasificacion.c_str());
-//            printf("\nConsola en que se juega: %s", videojuegos[i].consola.c_str());
-//            printf("\nPrecio del articulo unitario: %f", videojuegos[i].precio);
-//            printf("\nEl impuesto del articulo es de: %f", videojuegos[i].impuesto," pesos");
-//            printf("\nEl costo total del articulo es de: %f", videojuegos[i].total, " pesos");
-//        }
-//    }
-//}
-
 void lista()
 {
     string genero, consola;
